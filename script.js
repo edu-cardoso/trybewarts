@@ -24,8 +24,10 @@ function enableSubmitBtn() {
   agreementCheckbox.addEventListener('click', () => {
     if (agreementCheckbox.checked === true) {
       submitBtn.disabled = false;
+      submitBtn.style.opacity = '1'
     } else {
       submitBtn.disabled = true;
+      submitBtn.style.opacity = '.7'
     }
   });
 }

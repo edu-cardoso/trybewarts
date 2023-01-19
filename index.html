@@ -43,23 +43,23 @@
       </div>
       <div id="family-container">
         <label id="label-family">Qual sua família?</label>
-        <div class="family">
+        <div id="family-first">
           <input type="radio" name="family" value="Frontend">
           <label>Família Frontend</label>
         </div>
         <div class="family">
-          <input type="radio" name="family" value="Backend">
+          <input type="radio" name="family" value="Backend" class="family-radio">
           <label>Família Backend</label>
         </div>
         <div class="family">
-          <input type="radio" name="family" value="FullStack">
+          <input type="radio" name="family" value="FullStack" class="family-radio">
           <label>Família Fullstack</label>
         </div>
       </div>
       <div id="techs-container">
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-        <div class="techs-content">
-          <input type="checkbox" value="HoFs" class="subject">
+        <div id="techs-content-first">
+          <input type="checkbox" value="HoFs">
           <label>HoFs</label>
         </div>
         <div class="techs-content">
@@ -135,10 +135,12 @@
       </div>
       <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
-    <img src="images/trybewarts-colored.svg" alt="logo formulário trybewarts" id="trybewarts-forms-logo">
+    <div id="trybewarts-logo-container">
+      <img src="images/trybewarts-colored.svg" alt="logo formulário trybewarts" id="trybewarts-forms-logo">
+    </div>
   </main>
   <footer>
-    <p>Direitos reservados à Trybewarts©</p>
+    <p>Direitos reservados à Trybewarts ©</p>
   </footer>
 
   <script src="script.js"></script>
