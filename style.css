@@ -10,15 +10,17 @@ header {
 
 main {
   display: flex;
+  justify-content: space-between;
   margin: 50px auto 0 auto;
-  max-width: 1024px;
+  max-width: 1400px;
+  min-height: 100vh;
 }
 
 #header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1024px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -82,6 +84,7 @@ main {
   outline: none;
   background-color: rgb(211, 211, 211);
   margin-bottom: 10px;
+  height: 43px;
 }
 
 #input-email,
@@ -127,4 +130,27 @@ main {
 
 .rate {
   display: flex;
+}
+footer {
+  background-color: rgb(50, 167, 145);
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+}
+
+#char-quantity {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#submit-btn {
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(81, 28, 131);
+  color: white;
 }
